@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     txtEredmeny.setText("Eredmény 0-0");
                 }
             });
-            alertDialogBuilder.setPositiveButton("Nem", new DialogInterface.OnClickListener() {
+            alertDialogBuilder.setNegativeButton("Nem", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     finish();
