@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GÉP"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:id="@+id/textGep"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kocka1"
+        android:id="@+id/kepGep"
+        android:layout_below="@+id/textGep"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JÁTÉKOS"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:id="@+id/textJatekos"
+        android:layout_below="@+id/kepGep"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kocka1"
+        android:id="@+id/kepJatekos"
+        android:layout_below="@+id/textJatekos"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewEredmeny"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:text="Eredmény 0-0"
+        android:layout_below="@+id/kepJatekos"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Dobás"
+        android:textSize="25dp"
+        android:id="@+id/buttonDobas"
+        android:layout_below="@+id/textviewEredmeny"
+        />
+
+
+
+</RelativeLayout>
