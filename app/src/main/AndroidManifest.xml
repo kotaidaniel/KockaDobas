@@ -8,8 +8,8 @@
         android:label="Kocka Dobós Játék"
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
